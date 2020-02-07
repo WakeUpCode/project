@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  
+  <title>Responsive Navigation bar with Icons</title>
+</head>
+<body>
+ <!-- <section>
+    <header>
+      <h1 id= "home-log-us">Welcome to Interview Pannel</h1>
+    </header>
+  </section>-->
+  <div class="menuToggle">Menu</div>
+  <ul class="active">
+    <li>
+      <a href="#">
+        <div class="icon">
+          <img  class="fas fa-home" src="home.png" width="40" height="40">
+          <img  class="fas fa-home" src="home.png" width="40" height="40">
+         <!-- <img src="home.png" width="25" height="25"> -->
+
+        </div>
+        <div class="name"><span data-text="Home">Home</span></div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="icon">
+          <img  class="far fa-file-alt" src="about.png" width="40" height="40">
+          <img  class="far fa-file-alt" src="about.png" width="40" height="40">
+          
+        </div>
+        <div class="name"><span data-text="About">About</span></div>
+      </a>
+    </li>
+    <li>
+      <a href="#"> <div class="icon">
+         <img  class="fas fa-cogs" src="service.png" width="40" height="40">
+         <img  class="fas fa-cogs" src="service.png" width="40" height="40">
+        </div>
+        <div class="name"><span data-text="Services">Services</span></div>
+      </a>
+    </li>
+    <li>
+      <a href="#">  
+        <div class="icon">
+          <img  class="fas fa-users" src="user.jpg" width="40" height="40"></i>
+          <img  class="fas fa-users" src="user.jpg" width="40" height="40"></i>
+        </div>
+        <div class="name"><span data-text="User">User</span></div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="icon">
+          <img class="fas fa-login" src="login.png" width="40" height="40">
+          <img class="fas fa-login" src="login.png" width="40" height="40">
+        </div>
+        <div class="name"><span data-text="Login">Login</span></div>
+      </a>
+    </li>
+  </ul>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.menuToggle').click(function(){
+        $('ul').toggleClass('active')
+      })
+    })
+  </script>
+</body>
+</html>
